@@ -13,4 +13,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/macwoj/dotfiles.git
 cp ./dotfiles/.vimrc ~
+mkdir -p ~/.config/nvim
 ln -s ~/.vimrc ~/.config/nvim/init.vim
+vim -c ':PlugInstall' -c ':q' -c ':q'
+nvim -c ':PlugInstall' -c ':q' -c ':q'

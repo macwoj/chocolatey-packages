@@ -21,4 +21,4 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   )
 )
 & 'C:\Program Files (x86)\Vim\vim80\gvim.exe' -c ":PlugInstall" -c ":q" -c ":q"
-bash -c "installnvim.sh"
+bash -c "./install_vim.sh"

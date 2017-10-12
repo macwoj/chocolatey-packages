@@ -4,7 +4,7 @@ sudo apt-get -y install python-dev python-pip python3-dev python3-pip
 sudo apt-get -y install ctags vim-doc vim-scripts indent
 sudo add-apt-repository -yu ppa:neovim-ppa/stable
 sudo add-apt-repository -yu ppa:jonathonf/vim
-sudo apt-get update
+sudo -i apt-get update
 sudo apt-get -y install neovim
 sudo apt-get -y install vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

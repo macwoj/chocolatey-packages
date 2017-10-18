@@ -10,6 +10,7 @@ regedit /s ./cmd-colors-solarized/solarized-light.reg
 git clone https://github.com/altercation/solarized.git
 regedit /s ./solarized/putty-colors-solarized/solarized_light.reg
 regedit /s ./putty_font.reg
+regedit /s ./caps.reg
 git clone https://github.com/macwoj/dotfiles.git
 copy ./dotfiles/.vimrc ~\_vimrc
 md ~\vimfiles\autoload

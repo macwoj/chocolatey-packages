@@ -2,7 +2,7 @@ choco install git -y
 choco install vim -y
 choco install putty -y
 git clone https://github.com/powerline/fonts.git
-./fonts/install.ps1 DejaVu*
+./fonts/install.ps1 'DejaVu Sans Mono for Powerline'
 git clone https://github.com/neilpa/cmd-colors-solarized.git
 ./cmd-colors-solarized/Update-Link.ps1 "~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bash on Ubuntu on Windows.lnk" light
 ./cmd-colors-solarized/Update-Link.ps1 "~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk" light
